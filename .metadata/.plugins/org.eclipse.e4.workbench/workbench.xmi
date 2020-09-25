@@ -3142,4 +3142,4 @@
   <categories xmi:id="_c9CmX_8ZEequl6NSNXKuCA" elementId="org.eclipse.gef.category.view" name="View" description="View"/>
   <categories xmi:id="_c9CmYP8ZEequl6NSNXKuCA" elementId="org.eclipse.jdt.ui.category.source" name="Source" description="Java Source Actions"/>
   <categories xmi:id="_c9CmYf8ZEequl6NSNXKuCA" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
-</application:Applic
+</application:Application>
