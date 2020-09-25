@@ -1,0 +1,29 @@
+package com.packk;
+
+import java.util.Date;
+
+public class Emoloyee {
+	private int id;
+	private String name;
+	private String address;
+	private boolean isOpen;
+	private double x;
+	private Date adddate;
+	private byte[] image;
+	public Emoloyee(int id, String name, String address, boolean isOpen, double x, Date adddate, byte[] image) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.address = address;
+		this.isOpen = isOpen;
+		this.x = x;
+		this.adddate = adddate;
+		this.image = image;
+	}
+	public Emoloyee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

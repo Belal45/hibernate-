@@ -1,0 +1,36 @@
+package com.packk;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	 System.out.println( "Hello World!" );
+         Configuration cfgg=new Configuration();
+         cfgg.configure("hibernate.cfg.xml");
+         SessionFactory fact=cfgg.buildSessionFactory();
+         System.out.println(fact);
+         System.out.println(fact.isClosed());
+        
+        Person pp=new Person();
+        pp.setName("bilal");
+        pp.setProfile("programmer");
+        
+        
+        Session sess=fact.openSession();
+        
+        Transaction tt = sess.beginTransaction();
+        sess.save(pp);
+        tt.commit();
+        sess.close();
+        System.out.println("done");
+    }
+}

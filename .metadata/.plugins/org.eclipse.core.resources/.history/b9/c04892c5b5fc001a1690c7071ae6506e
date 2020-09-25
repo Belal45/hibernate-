@@ -1,0 +1,14 @@
+package com.packk;
+
+import java.util.Date;
+
+public class Emoloyee {
+	private int id;
+	private String name;
+	private String address;
+	private boolean isOpen;
+	private double x;
+	private Date adddate;
+	private byte[] image;
+
+}
